@@ -1,7 +1,9 @@
-name: Akshay Check
-
+name: Akshay2
 on:
   workflow_dispatch:
+  pull_request:  
+    branches:
+      - main
 
 jobs:
   hello:
